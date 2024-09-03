@@ -1,11 +1,23 @@
-INDICE = 13
-SOMA = 0
-K = 0
+def fibonacci_sequence(n):
+    fib_sequence = [0, 1]
+    
+    
+    while fib_sequence[-1] < n:
+        fib_sequence.append(fib_sequence[-1] + fib_sequence[-2])
+    
+    
+    if n in fib_sequence:
+        return True
+    else:
+        return False
 
-while K < INDICE:
-    K = K + 1
-    SOMA = SOMA + K
 
-print(SOMA)
+def verificar_fibonacci(numero):
+    if fibonacci_sequence(numero):
+        print(f"O número {numero} faz parte da sequência de Fibonacci.")
+    else:
+        print(f"O número {numero} não faz parte da sequência de Fibonacci.")
 
-# Resposta = 91
+
+numero_informado = int(input("Informe um número: "))
+verificar_fibonacci(numero_informado)

@@ -1,13 +1,11 @@
-# SOLUÇÃO COM 2 IDAS
+# a) 1, 3, 5, 7, _9_
 
-#Ligue um dos interruptores e espere um pouco. Desligue e vá até a sala. 
-# A lâmpada desligada e quente corresponde ao primeiro interruptor, depois volte na sala do interruptores
-# e ligue o segundo interruptor .Depois vá até a sala,
-# a lâmpada acesa corresponde ao segundo interruptor e a lâmpada apagada e fria ao terceiro.
+# b) 2, 4, 8, 16, 32, 64, _128_
 
+# c) 0, 1, 4, 9, 16, 25, 36, _49_
 
-#SOLUÇÃO COM 1 ÚNICA IDA
+# d) 4, 16, 36, 64, _100_
 
-# Ligue um dos interruptores e espere um pouco. Desligue e ligue um segundo interruptor. 
-# Vá até a sala. A lâmpada desligada e quente corresponde ao primeiro interruptor,
-# a lâmpada acesa ao segundo e a lâmpada apagada e fria ao terceiro.
+# e) 1, 1, 2, 3, 5, 8, _13_
+
+# f) 2,10, 12, 16, 17, 18, 19, _25_

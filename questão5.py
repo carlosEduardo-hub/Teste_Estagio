@@ -1,19 +1,13 @@
-def inverter_string(s):
-    
-    caracteres = list(s)
-    
-    inicio = 0
-    fim = len(caracteres) - 1
-    
-    while inicio < fim:
-        caracteres[inicio], caracteres[fim] = caracteres[fim], caracteres[inicio]
-        
-        inicio += 1
-        fim -= 1
-    
-    return ''.join(caracteres)
+# SOLUÇÃO COM 2 IDAS
+
+#Ligue um dos interruptores e espere um pouco. Desligue e vá até a sala. 
+# A lâmpada desligada e quente corresponde ao primeiro interruptor, depois volte na sala do interruptores
+# e ligue o segundo interruptor .Depois vá até a sala,
+# a lâmpada acesa corresponde ao segundo interruptor e a lâmpada apagada e fria ao terceiro.
 
 
-string_original = input("Digite uma string para inverter: ")
-string_invertida = inverter_string(string_original)
-print("String invertida:", string_invertida)
+#SOLUÇÃO COM 1 ÚNICA IDA
+
+# Ligue um dos interruptores e espere um pouco. Desligue e ligue um segundo interruptor. 
+# Vá até a sala. A lâmpada desligada e quente corresponde ao primeiro interruptor,
+# a lâmpada acesa ao segundo e a lâmpada apagada e fria ao terceiro.
